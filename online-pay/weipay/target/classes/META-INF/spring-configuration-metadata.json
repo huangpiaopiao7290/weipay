@@ -1,0 +1,47 @@
+{
+  "groups": [
+    {
+      "name": "wxpay",
+      "type": "com.weipay.config.WeiPayConfig",
+      "sourceType": "com.weipay.config.WeiPayConfig"
+    }
+  ],
+  "properties": [
+    {
+      "name": "wxpay.api-v3-key",
+      "type": "java.lang.String",
+      "sourceType": "com.weipay.config.WeiPayConfig"
+    },
+    {
+      "name": "wxpay.app-id",
+      "type": "java.lang.String",
+      "sourceType": "com.weipay.config.WeiPayConfig"
+    },
+    {
+      "name": "wxpay.domain",
+      "type": "java.lang.String",
+      "sourceType": "com.weipay.config.WeiPayConfig"
+    },
+    {
+      "name": "wxpay.mch-id",
+      "type": "java.lang.String",
+      "sourceType": "com.weipay.config.WeiPayConfig"
+    },
+    {
+      "name": "wxpay.mch-serial-no",
+      "type": "java.lang.String",
+      "sourceType": "com.weipay.config.WeiPayConfig"
+    },
+    {
+      "name": "wxpay.notify-domain",
+      "type": "java.lang.String",
+      "sourceType": "com.weipay.config.WeiPayConfig"
+    },
+    {
+      "name": "wxpay.private-key-path",
+      "type": "java.lang.String",
+      "sourceType": "com.weipay.config.WeiPayConfig"
+    }
+  ],
+  "hints": []
+}

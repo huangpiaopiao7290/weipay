@@ -1,0 +1,32 @@
+server:
+  port: 7290
+
+spring:
+  application:
+    name: wxpay-demo
+  profiles:
+    active: dev
+
+  jackson:
+    date-format: yyyy-MM-dd HH:mm:ss
+#    time-zone: CTM+8
+
+  datasource:
+    url: jdbc:mysql://localhost:3306/db01?serverTimezone=UTC
+    username: root
+    password: root
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    dbcp2:
+      min-idle: 1
+      initial-size: 3
+      max-total: 6
+      max-wait-millis: 100
+
+mybatis-plus:
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+#  mapper-locations: classpath:com/weipay/mapper/xml/*.xml
+
+logging:
+  level:
+    com.weipay: debug

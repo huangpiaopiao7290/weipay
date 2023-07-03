@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/online-pay.iml" filepath="$PROJECT_DIR$/online-pay.iml" />
+      <module fileurl="file://$PROJECT_DIR$/weipay/weipay.iml" filepath="$PROJECT_DIR$/weipay/weipay.iml" />
+    </modules>
+  </component>
+</project>

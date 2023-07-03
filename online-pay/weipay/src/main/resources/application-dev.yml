@@ -1,0 +1,18 @@
+# 微信支付配置参数
+wxpay:
+  # 商户号
+  mch-id: 1558950191
+  # 商户API证书序列号
+  mch-serial-no: 34345964330B66427E0D3D28826C4993C77E631F
+  # 商户私钥文件
+  private-key-path: cert/apiclient_key.pem
+  # APIv3密钥
+  api-v3-key: UDuLFDcmy5Eb6o0nTNZdu6ek4DDh4K8B
+  # AppID
+  appid: wx74862e0dfcf69954
+  # 微信服务器地址
+  domain: https://api.mch.weixin.qq.com
+  # 回调地址  请使用自己的回调地址
+  notify-domain: https://huangpiaopiao.natapp4.cc
+
+
