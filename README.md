@@ -278,7 +278,7 @@ public class R {
         r.setCode(5000);                // 成功的响应码2000
         r.setMessage("unsuccessful");        // 成功的响应消息
 
-        return null;
+        return r;
     }
 
     public R data(String key, Object value) {
